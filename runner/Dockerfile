@@ -11,4 +11,6 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Use the command provided during container launch
-CMD ["python", "runner.py"]
+CMD ["arg1"]
+
+ENTRYPOINT ["python","./runner.py"]
