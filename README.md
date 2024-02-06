@@ -11,7 +11,7 @@ Usage:
 ## Runner
 
 Build:
-`docker build -t api:alexandre-kupac .`
+`docker build -t runner:alexandre-kupac .`
 
 Usage:
 `docker run -ti --rm -e API_PORT=3000 runner:alexandre-kupac "Lord of the Rings"`
