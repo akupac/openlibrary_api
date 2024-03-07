@@ -1,4 +1,4 @@
-# Desafio Técnico: openlibrary_api
+# Generic API in Go to consume Open Library API endpoints
 
 API written in Go using Negroni framework that searches strings in Open Library API with a client written in Python that makes the requests through the Go API and prints the result into the console. Both apps run inside a Docker container.
 
